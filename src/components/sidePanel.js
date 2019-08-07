@@ -27,7 +27,7 @@ const SidePanel = () => {
               HORSEY PAGES
             </Link>
             {allContentfulContainer.edges.map(({ node }) => {
-              return <NavigationLink node={node} />
+              return <NavigationLink key={node.id} node={node} />
             })}
           </SidePanelWrapper>
         )

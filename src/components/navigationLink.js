@@ -4,7 +4,7 @@ import styled from "styled-components"
 
 const NavigationLink = ({ node }) => {
   return (
-    <LinkWrapper key={node.id} to={node.slug !== "home" ? node.slug : "/"}>
+    <LinkWrapper to={node.slug !== "home" ? node.slug : "/"}>
       {node.title}
     </LinkWrapper>
   )
