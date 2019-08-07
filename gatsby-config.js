@@ -1,3 +1,5 @@
+require("dotenv-safe").config()
+
 module.exports = {
   siteMetadata: {
     title: `Think Like A Horse`,
@@ -35,7 +37,7 @@ module.exports = {
       resolve: `gatsby-source-contentful`,
       options: {
         spaceId: `tl0rm0l85c3q`,
-        accessToken: `NLe1hhoud9L1od63A8audAWDMB5e7J2Co13fIlJNWYE`,
+        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
       },
     },
   ],
