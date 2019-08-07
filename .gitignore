@@ -57,9 +57,11 @@ typings/
 # gatsby files
 .cache/
 public
+gatsby-config
 
 # Mac files
 .DS_Store
+.vscode
 
 # Yarn
 yarn-error.log
