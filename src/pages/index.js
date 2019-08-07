@@ -3,6 +3,7 @@ import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
+import Section from "../components/section"
 
 const IndexPage = ({ data: { allContentfulContainer } }) => {
   console.log("etf", allContentfulContainer.edges[0].node)
@@ -25,6 +26,7 @@ const IndexPage = ({ data: { allContentfulContainer } }) => {
             <a
               href="https://www.youtube.com/channel/UCwdVL0L9ljq3McWMXWrUVdg"
               target="_blank"
+              rel="noopener noreferrer"
             >
               1150 VIDEOS{" "}
             </a>
@@ -36,12 +38,16 @@ const IndexPage = ({ data: { allContentfulContainer } }) => {
       <a
         href="https://www.youtube.com/channel/UCwdVL0L9ljq3McWMXWrUVdg"
         target="_blank"
+        rel="noopener noreferrer"
       >
         <div className="center-text box-padding tb-border">
           <i>CLICK HERE FOR "THINK LIKE A HORSE VIDEOS"</i>
         </div>
       </a>
       <br />
+      {home.modules.map((section, i) => {
+        return <Section key={section.id} section={section} />
+      })}
     </Layout>
   )
 }
@@ -78,6 +84,8 @@ export const query = graphql`
                       url
                     }
                     description
+                    title
+                    id
                   }
                 }
                 ... on ContentfulSectionQuote {
