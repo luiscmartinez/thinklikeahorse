@@ -43,6 +43,10 @@ const SidePanelWrapper = styled.div`
   flex-direction: column;
   border: 3px solid green;
   width: 220px;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  left: 0;
   background: url(http://www.thinklikeahorse.org/images/block1_tail.jpg);
   .header {
     color: white;
@@ -52,5 +56,8 @@ const SidePanelWrapper = styled.div`
     background: url(http://www.thinklikeahorse.org/images/block1_top.jpg);
     height: 30px;
     text-align: center;
+  }
+  @media (max-width: 600px) {
+    display: none;
   }
 `

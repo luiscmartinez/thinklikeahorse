@@ -24,5 +24,6 @@ export default Content
 
 const ContentWrapper = styled.div`
   border: 2px solid yellow;
-  width: 700px;
+  width: 100%;
+  max-width: 700px;
 `

@@ -3,19 +3,17 @@ import { Link } from "gatsby"
 import Layout from "./layout"
 import Image from "./image"
 import SEO from "./seo"
+import Section from "./section"
 
 const Container = ({ pageContext }) => {
   console.log(pageContext)
   return (
     <Layout>
-      <SEO title="Home" />
-      <h1>Hi GATSBY people</h1>
-      <p>Welcome to your new Gatsby site.</p>
-      <p>Now go build something great.</p>
-      <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-        <Image />
-      </div>
-      <Link to="/page-2/">Go to page 2</Link>
+      <SEO title={pageContext.title} />
+
+      {pageContext.modules.map(section => {
+        return <Section key={section.id} section={section} />
+      })}
     </Layout>
   )
 }

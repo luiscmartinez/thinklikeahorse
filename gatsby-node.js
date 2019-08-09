@@ -17,13 +17,17 @@ exports.createPages = ({ graphql, actions }) => {
                   id
                   title
                   slot {
+                    __typename
                     ... on ContentfulSectionPhoto {
                       id
+                      url
                       photos {
                         file {
                           url
                         }
                         description
+                        title
+                        id
                       }
                     }
                     ... on ContentfulSectionQuote {
