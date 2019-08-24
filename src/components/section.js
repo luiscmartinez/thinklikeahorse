@@ -2,6 +2,7 @@ import React, { Fragment } from "react"
 import ReactMarkdown from "react-markdown"
 import styled from "styled-components"
 import SectionImages from "./sectionPhoto"
+import Quote from "./quote"
 
 const Section = ({ section }) => {
   return (
@@ -22,7 +23,7 @@ const Section = ({ section }) => {
             }
             break
           case "ContentfulSectionQuote":
-            sectionArr.push(<q key={i}>{slot.quote}</q>)
+            sectionArr.push(<Quote key={i} quote={slot.quote} />)
             break
           case "ContentfulSectionPhoto":
             sectionArr.push(<SectionImages key={i} photos={slot.photos} />)
@@ -59,5 +60,8 @@ const SectionWrapper = styled.section`
   p {
     line-height: 1.5;
     margin-bottom: 2.4rem;
+  }
+  img {
+    width: 100%;
   }
 `
