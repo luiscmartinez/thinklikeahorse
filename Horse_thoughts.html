@@ -54,7 +54,7 @@
 			<div class="bg_bottom">
 				<div class="wrapper">
 					<div class="col1">
-						<div class="wrapper">
+						<div class="inner_wrapper">
 							<div class="row1">
 								<div class="row1_top row1_top_extra">
 									<h2 class="extra">Horsemanship Pages</h2>
@@ -5761,11 +5761,12 @@
 					<div class="col1">
 						<div class="wrapper">
 							<div class="row1">
-								<div class="row1_top row1_top_extra">
+								<div class="row1_top row1_top_extra" id="extra">
 									<h2 class="extra">Horsemanship Pages</h2>
-									<ul>
+									<ul id="sub_nav">
 										<li>
-											<a class="section" href="index.html">*Home</a>
+											<a class="section" href="#7">This is NOT Cute to Me
+											</a>
 										</li>
 										<li>
 											<a class="section" href="index-25.html" target="_blank">*Sitemap</a>
@@ -5866,21 +5867,6 @@
 									</ul>
 								</div>
 							</div>
-							<div class="row2">
-								<div class="row2_top">
-									<div class="row2_bottom">
-										<img alt="" src="images/logo.jpg">
-										<h2>ThinkLikeAHorse.org Copyright 2004<br>
-											<br>
-											<a href="index-23.html">Release Of Liability</a>
-										</h2><br>
-										<br>
-										<div align="right" class="toplink">
-											<a href="Horse_thoughts.html#">Move to top of page</a>
-										</div>
-									</div>
-								</div>
-							</div>
 						</div>
 						<div id="footer"></div>
 					</div>
@@ -5902,6 +5888,22 @@
 		//<![CDATA[
 		Cufon.now();
 	 //]]>
+	</script>
+	<script>
+		const subNav = document.getElementById("sub_nav");
+		const titles = document.querySelectorAll(".row2 center > strong > u")
+		const pairs = []
+		titles.forEach((e, index) => {
+			if (e.innerHTML.length) {
+				const title = e.innerHTML
+				pairs.push([index, title])
+				e.innerHTML = `<a id="${index}">${title}</a>`;
+				e.href = "#cool"
+			}
+		})
+
+		console.log(titles)
+		console.log(subNav)
 	</script>
 	</body>
 
