@@ -58,3 +58,6 @@
 #page6 .subcol2 {
   width: 270px;
 }
+#sub_nav li a {
+  font-size: 0.8em;
+}

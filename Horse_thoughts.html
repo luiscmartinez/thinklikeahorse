@@ -5764,106 +5764,6 @@
 								<div class="row1_top row1_top_extra" id="extra">
 									<h2 class="extra">Horsemanship Pages</h2>
 									<ul id="sub_nav">
-										<li>
-											<a class="section" href="#7">This is NOT Cute to Me
-											</a>
-										</li>
-										<li>
-											<a class="section" href="index-25.html" target="_blank">*Sitemap</a>
-										</li>
-										<li>
-											<a class="section" href="index.html#2">*SEARCH THE SITE</a>
-										</li>
-										<li>
-											<a class="section" href="index-1.html">*Horse History</a>
-										</li>
-										<li>
-											<a class="section" href="index-2.html">*Horseman Tips</a>
-										</li>
-										<li>
-											<a class="section" href="index-3.html">*Horsemanship</a>
-										</li>
-										<li>
-											<a class="section" href="index-28.html">*Amazing Horse Hoof</a>
-										</li>
-										<li>
-											<a class="last" href="index-5.html">*Horse Anatomy Pictures</a>
-										</li>
-										<li>
-											<a class="section" href="index-4.html">*Rope Halters</a>
-										</li>
-										<li>
-											<a class="section" href="Horse_thoughts.html">My Random Horse
-												Thoughts</a>
-										</li>
-										<li>
-											<a class="section" href="index-6.html">*Tying A Horse</a>
-										</li>
-										<li>
-											<a class="section" href="index-7.html">*Bosal/Hackamores</a>
-										</li>
-										<li>
-											<a class="section" href="index-8.html">*Bad Horsemanship</a>
-										</li>
-										<li>
-											<a class="section" href="index-9.html">*Misc Horse Info</a>
-										</li>
-										<li>
-											<a class="section" href="index-10.html">*Trailer Loading</a>
-										</li>
-										<li>
-											<a class="section" href="index-11.html">*Training Videos</a>
-										</li>
-										<li>
-											<a class="section" href="index-12.html">*Hobbles</a>
-										</li>
-										<li>
-											<a class="section" href="index-13.html">*Horse Articles</a>
-										</li>
-										<li>
-											<a class="section" href="index-14.html">*Health and Medical
-												Info</a>
-										</li>
-										<li>
-											<a class="section" href="horse_fear.html">Horse & Rider Fear</a>
-										</li>
-										<li>
-											<a class="section" href="horse_opposition_reflex.html">Opposition Reflex</a>
-										</li>
-										<li>
-											<a class="section" href="index-15.html">*Answers to
-												Questions</a>
-										</li>
-										<li>
-											<a class="section" href="index-16.html">*Cowboy Wisdom</a>
-										</li>
-										<li>
-											<a class="section" href="index-17.html">*Cookie Recipe for
-												Horses</a>
-										</li>
-										<li>
-											<a class="section" href="index-18.html">*Horse Jokes</a>
-										</li>
-										<li>
-											<a class="section" href="index-19.html">*Cowboy Weather</a>
-										</li>
-										<li>
-											<a class="section" href="index-20.html">*Sites and Links</a>
-										</li>
-										<li>
-											<a class="section" href="index-24.html">*A Horse's Prayer*</a>
-										</li>
-										<li>
-											<a class="section" href="index-21.html">*Photos Rick and
-												Horses</a>
-										</li>
-										<li>
-											<a class="section" href="index-22.html">*Clinics on Request*</a>
-										</li>
-										<li>
-											<a class="section" href="mailto:horsyguy@yahoo.com">*Contact
-												Rick</a>
-										</li>
 									</ul>
 								</div>
 							</div>
@@ -5892,18 +5792,18 @@
 	<script>
 		const subNav = document.getElementById("sub_nav");
 		const titles = document.querySelectorAll(".row2 center > strong > u")
-		const pairs = []
+		const listItems = []
 		titles.forEach((e, index) => {
 			if (e.innerHTML.length) {
 				const title = e.innerHTML
-				pairs.push([index, title])
+				const anchor = `<li><a href="#${index}">${title}</a></li>`
+				listItems.push(anchor)
 				e.innerHTML = `<a id="${index}">${title}</a>`;
 				e.href = "#cool"
 			}
 		})
 
-		console.log(titles)
-		console.log(subNav)
+		subNav.innerHTML = listItems.join('')
 	</script>
 	</body>
 
