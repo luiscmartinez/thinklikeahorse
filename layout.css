@@ -57,6 +57,9 @@
 
 .r1 {
   width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .sticky-sidebar {
@@ -69,4 +72,10 @@
 #sub_nav li {
   width: 12em;
   line-height: 19px;
+}
+
+#extra h2 {
+  color: rgb(41, 37, 37);
+  padding-bottom: 0.5em;
+  border-bottom: 2px solid black;
 }
