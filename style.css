@@ -229,21 +229,19 @@ p.extra {
 
 .col1 .row1 {
   background: url(images/block1_tail.jpg) repeat-y top center;
+  width: 15em;
 }
 .col1 .row1_top {
   background: url(images/block1_top.jpg) no-repeat top center;
-  padding: 0 32px 7px;
 }
-.col1 .row1_top_extra {
-  padding: 0 22px 0 21px;
-}
+
 .col1 .row1_bottom {
   background: url(images/block1_bottom.jpg) no-repeat bottom center;
-  padding: 0 32px 48px;
 }
 .row1_bottom p {
   padding: 4px 0 15px;
 }
+
 #page6 .row1_top,
 #page7 .row1_top {
   padding: 0;
@@ -263,7 +261,6 @@ p.extra {
 }
 .col1 .row2_bottom {
   background: url(images/block2_bottom.jpg) no-repeat bottom center;
-  padding: 55px 30px 60px 31px;
 }
 .col1 .row2_bottom_extra {
   padding: 55px 30px 57px 21px;
