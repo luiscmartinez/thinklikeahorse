@@ -8,7 +8,8 @@
 
 body {
   background: #000 url(images/bg_tail.jpg) repeat top center;
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 img {
@@ -109,63 +110,12 @@ h4 {
 .cols {
   width: 250px;
 }
-.imgindent {
-  margin: 0 20px 0 0;
-  float: left;
-}
+
 .fright {
   text-align: right;
 }
 .fcenter {
   text-align: center;
-}
-/* ============================= header ====================== */
-#header {
-  background: url(images/header_img.jpg) no-repeat top center;
-}
-#header .main {
-  text-align: right !important;
-}
-.menu {
-  padding: 0 0 23px;
-  overflow: hidden;
-}
-.menu li {
-  color: #33322e;
-  float: left;
-  padding: 17px 0 45px;
-}
-.menu li a {
-  color: #b78346;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 1.2em;
-  text-transform: uppercase;
-  text-decoration: none;
-  margin: 0 23px 0 24px;
-}
-.menu a:hover {
-  color: #fff;
-}
-.menu li.active {
-  background: url(images/menu_active.png) no-repeat top center;
-}
-.menu li.active a,
-.menu li.active a:hover {
-  color: #fff;
-  cursor: default;
-}
-#page6 li.active {
-  background: url(images/menu_active_last.png) no-repeat top center;
-}
-#header a img {
-  margin-right: 64px;
-}
-.menu li.last a {
-  margin-right: 19px;
-}
-.image {
-  padding: 7px 0 0;
 }
 p.extra {
   padding: 4px 0 9px;
@@ -292,19 +242,6 @@ p.extra {
 }
 .banner h3 {
   color: #fdb563;
-}
-.banner a {
-  background: url(images/banner_btn.jpg) no-repeat top center;
-  display: block;
-  width: 86px;
-  line-height: 26px;
-  color: #322f25;
-  text-decoration: none;
-  text-align: center;
-  font-weight: bold;
-  letter-spacing: -1px;
-  text-transform: capitalize;
-  float: right;
 }
 .banner a:hover {
   color: #a71906;

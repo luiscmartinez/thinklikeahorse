@@ -67,6 +67,7 @@
   position: sticky;
   max-height: 100vh;
   top: 0em;
+  background-color: #feeec7;
 }
 
 #sub_nav li {
