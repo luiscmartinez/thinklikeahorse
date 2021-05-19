@@ -23,7 +23,6 @@
   max-height: 100vh;
 }
 .col2 {
-  overflow-y: auto;
   max-width: 900px;
   display: flex;
 }
@@ -63,5 +62,11 @@
 .sticky-sidebar {
   overflow-y: scroll;
   position: sticky;
-  max-height: 105vh;
+  max-height: 100vh;
+  top: 0em;
+}
+
+#sub_nav li {
+  width: 12em;
+  line-height: 19px;
 }
