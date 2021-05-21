@@ -1,4 +1,4 @@
-const index_3 = `
+const index_3 = html`
 <p><img border="0" src="images/barbwire.gif"></p>
 <p></p>
 <h3><u><strong>Index Of Topics:</strong></u></h3>
