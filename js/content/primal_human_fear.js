@@ -1,0 +1,155 @@
+const content = `
+<div class="banner">
+  <center>
+    <h1 class="style2"><cufon class="cufon cufon-canvas" alt="Think " style="width: 65px; height: 18px;"><canvas width="90" height="23" style="width: 90px; height: 23px; top: -4px; left: -1px;"></canvas><cufontext>Think </cufontext></cufon><cufon class="cufon cufon-canvas" alt="Like " style="width: 43px; height: 18px;"><canvas width="68" height="23" style="width: 68px; height: 23px; top: -4px; left: -1px;"></canvas><cufontext>Like </cufontext></cufon><cufon class="cufon cufon-canvas" alt="A " style="width: 17px; height: 18px;"><canvas width="42" height="23" style="width: 42px; height: 23px; top: -4px; left: -1px;"></canvas><cufontext>A </cufontext></cufon><cufon class="cufon cufon-canvas" alt="Horse " style="width: 65px; height: 18px;"><canvas width="90" height="23" style="width: 90px; height: 23px; top: -4px; left: -1px;"></canvas><cufontext>Horse </cufontext></cufon><cufon class="cufon cufon-canvas" alt="- " style="width: 12px; height: 18px;"><canvas width="37" height="23" style="width: 37px; height: 23px; top: -4px; left: -1px;"></canvas><cufontext>- </cufontext></cufon><cufon class="cufon cufon-canvas" alt="Natural " style="width: 87px; height: 18px;"><canvas width="112" height="23" style="width: 112px; height: 23px; top: -4px; left: -1px;"></canvas><cufontext>Natural </cufontext></cufon><cufon class="cufon cufon-canvas" alt="Horsemanship" style="width: 142px; height: 18px;"><canvas width="162" height="23" style="width: 162px; height: 23px; top: -4px; left: -1px;"></canvas><cufontext>Horsemanship</cufontext></cufon><br><cufon class="cufon cufon-canvas" alt="Rick " style="width: 48px; height: 18px;"><canvas width="73" height="23" style="width: 73px; height: 23px; top: -4px; left: -1px;"></canvas><cufontext>Rick </cufontext></cufon><cufon class="cufon cufon-canvas" alt="Gore " style="width: 55px; height: 18px;"><canvas width="81" height="23" style="width: 81px; height: 23px; top: -4px; left: -1px;"></canvas><cufontext>Gore </cufontext></cufon><cufon class="cufon cufon-canvas" alt="Horsemanship" style="width: 142px; height: 18px;"><canvas width="162" height="23" style="width: 162px; height: 23px; top: -4px; left: -1px;"></canvas><cufontext>Horsemanship</cufontext></cufon></h1>
+  </center>
+
+  <center>
+    <img border="0" src="images/horsedivider.gif">
+  </center>
+
+  <center>
+    <h3>Horse's love it when their owner's
+    understand them.<br>
+    <br>
+    Horsemanship is about the horse teaching you
+    about yourself.</h3>
+  </center>
+
+  <div class="buttons"></div>
+</div>
+
+<div class="row1">
+  <h1 class="extra"><strong><center><u><cufon class="cufon cufon-canvas" alt="Primal " style="width: 104px; height: 26px;"><canvas width="140" height="33" style="width: 140px; height: 33px; top: -6px; left: -2px;"></canvas><cufontext>Primal </cufontext></cufon><cufon class="cufon cufon-canvas" alt="Human " style="width: 112px; height: 26px;"><canvas width="148" height="33" style="width: 148px; height: 33px; top: -6px; left: -2px;"></canvas><cufontext>Human </cufontext></cufon><cufon class="cufon cufon-canvas" alt="Fear " style="width: 70px; height: 26px;"><canvas width="106" height="33" style="width: 106px; height: 33px; top: -6px; left: -2px;"></canvas><cufontext>Fear </cufontext></cufon><cufon class="cufon cufon-canvas" alt="in " style="width: 39px; height: 26px;"><canvas width="75" height="33" style="width: 75px; height: 33px; top: -6px; left: -2px;"></canvas><cufontext>in </cufontext></cufon><cufon class="cufon cufon-canvas" alt="Horses" style="width: 103px; height: 26px;"><canvas width="133" height="33" style="width: 133px; height: 33px; top: -6px; left: -2px;"></canvas><cufontext>Horses</cufontext></cufon></u></center></strong></h1>
+</div>
+
+<div class="row2">
+  <p align="justify"><img border="2" src="rick background.jpg" width="500" height="180"></p>
+
+
+<p align="justify"> </p><h3><center><u><strong>Primal Human Fear - Correlation to Horses<br><br> (Fear of Horses and Horse Fear)
+</strong></u></center></h3><p></p>
+
+
+<p> </p>
+<hr>
+<p></p>
+
+<p align="justify">
+I was watching a show on the History Channel and it was called <strong>"Primal Fear."</strong> As I watched it, I saw many similarities in people’s primal fear and the fear of horses, so I started taking notes. I will try to discuss horse fear and human fear to increase its understanding.  This will also connect where a horse’s fear comes from and understand why that fear is very natural. The more you understand a horse's fear, the better you react to it and help the horse to control their reactions to their fear.</p>
+
+<p align="justify">
+Where does fear come from? Some say fear is the oldest and strongest emotion of mankind. Fear can help you or hurt you. Fear helps you survive or causes you to fail. Fear is a feeling and an emotion.  Fear itself cannot hurt you unless you let it grow out of control or allow it to control you. Prolonged exposure to fear or stress induces massive stress upon the human body to toxic effect. This is true in most all animals. While fear is essential for honing our reflexes in traumatic or survival situations, giving you a boost in your senses like strength, hearing, sight or reflexes, it does not serve us very well over an extended period of time. Like with most things,<a href="Horse_thoughts.html#5" target="_blank"><u><strong> Ying and Yang </strong> </u></a>, in all good there is some bad and in all bad, there is some good.</p>
+
+
+<p align="justify">
+Some say we humans have primal fears that are instinctual, taught or learned. Some of these are fear of burning, drowning, suffocation and a few others. What some would call survival fears? Since these fears are thought to be in everyone, they have been used over the years as a form of interrogation or torture. A couple of these examples are burning witches, being put to death by the electric chair or water boarding. All of these play on our instinctual primal fears.</p>
+
+<p align="justify">
+It is believed that all life comes from water. That belief connects humans to water, for those that believe in baptism it is an early connection with water. Having babies in tubs of water or being in the womb both connect humans to water.  Drowning is a very common fear, this fear of water was used hundreds of years ago by a thing called <u>trial by water.</u> In this event, a person was thrown in the water and if you floated, that meant the pure water rejects you, therefore you must be guilty. If you sank and drowned you were innocent, a minor flaw in this test is the only way for you to win was to die. </p>
+
+<p align="justify">
+Lots of fear comes from the concept of <strong>Good verses Evil.</strong>  This is part of most all cultures, God verses the Devil, superhero verses the villain, cops verses crooks, good people against bad people, heaven verses hell, and all of these things create, instill or use fear.  There is a constant bombardment of fear in humans. Some of the many fears in humans are <i>fear of falling, fear of heights, fear of drowning, fear of burning, fear of losing your job, fear of losing a child, fear of authority, fear of going to jail, fear of the government, fear of being hurt, fear of fire or burning, fear of dying, fear of disease, fear of the future, fear of the unknown, fear of religion, fear of other people due to race, religion, or beliefs (blacks, whites, Russians, Muslims, Chinese),</i> fear is so ingrained into humans, that it appears to be a normal part of life. Yet Fear is the greatest motivation tool available and its success rate with most living things is unchallenged.</p>
+<p></p>
+<hr>
+<p></p>
+
+<p align="justify"> </p><center>
+Click Here for a 
+<a href="http://phobias.about.com/od/introductiontophobias/tp/Ten-Common-Phobias.htm" target="_blank"><u><strong> List of the top ten Phobias : </strong> </u></a> </center><p></p>
+
+<p align="justify"></p><center> Click Here for
+<a href="http://phobias.about.com/od/phobiaslist/Specific_Phobias_List_and_Descriptions.htm" target="_blank"><u><strong>A Complete list of Phobias: </strong></u></a> </center><p></p>
+
+<p></p>
+
+<hr>
+<p></p>
+
+<p align="justify">
+The term <strong>“The Fear of death is worse than death itself.”</strong> Fear is used in most aspects of every human being. Fear controls us; fear changes our choices, our behaviors and even our beliefs. Our social needs create a fear of being alone. All Governments know that it is much harder to control united people than to control smaller divided people. Division is a great tool to create fear. Misinformation creates fear and uncertainty. Most living people experience some type of fear several times a day. Some fear is real and some fear is imagined. Some fear is learned and other fear is instinctual. Conditioned fear is learned fear from an experience.  The brain is able to be afraid and fear of anticipation of an event like escaping a burning building or getting in a place crash. </p>
+
+
+<p><strong>
+Note: </strong><i>You can read the above paragraph and apply it to horses instead of humans and it will still true.</i> </p>
+
+<p align="justify">
+Terrorism is a great use of fear. The genius of Terrorism is it creates a psychological <strong>fear of not knowing.</strong> This type of terror or fear may not beat an army on the battlefield but it changes people, their behavior and their lives. This fear has worked for centuries. In Medieval times, Armies would throw dead bodies infected with the plague over the walls to instill fear of death on their enemies.  Gangs use fear, police uniforms is an example of command presence in an attempt to instill confidence in the public yet it instills fear in those they seek, chase or arrest. Terror is things like hostage taking, random acts of killing or violence, bombing or crashing airplanes into buildings; the fear comes from a lack of control in your outcome, your fate or your safety. Much like riding a horse creates these same fears. Fear of getting bucked off, fear of falling off, fear of the horse running out, fear of the unpredictability of the horse and all this comes a feeling of lack or loss of control.</p>
+
+<p align="justify">
+PTSD (Post Traumatic Stress Disorder) is becoming more and more common as more and more fear is injected into our daily lives. When an event imprints your mind so severely, you lose control of your rational thought and it is replaced with fear, fear of what has happened, fear of what may happen, fear of how you will deal with what happens and the cycle of fear locks you into a spiral of confusion, frustration and a feeling of loss of control. I see this all the time in the horse world. Constant fear of getting bucked off is so much worse than if it ever happens.  All this fear prevents you from thinking rational, reacting rational, prevents learning and stops or delays your thought process or reasoning ability. This is known as freezing or blacking out and a panic response and it prevents logical or thought out responses. Again, this tends to happen everyday at any barn or horse event across the world. You will see what happens when a person is so preoccupied with fear that they stop functioning rationally or they do nothing. The term Fetal Position comes to mind. </p>
+<p align="justify">
+
+When humans are a strong or extreme exposure to stress or trauma will many times assume the <strong>fetal position.</strong> This is an instinctual reaction when the brain shuts down can no longer cope with the current situation. Many times the fetal position is a strong indication that extreme fear or panic has set in. People that suffer from anxiety or have panic attack will commonly assume the fetal position. Others assume the fetal position when sleeping. Some find comfort, safety and security when they take on this position. If a person takes this position in extreme stress or fear it is believed that the ability to act, fight or flight is lost. When a person is very cold the fetal position aides in comfort and helps protect the vital internal organs. All of this from a position that was initially started in the womb of the mother. Next time you a person getting bucked off or scared in the saddle watch their body, the knees come up, the back curves forward, the arms pull on the reins toward the stomach and the body tried to take the fetal position. And if this dose not happen in the saddle, it will happen on the ground as the person that was just thrown will many times assume that position after they hit the ground. A key point here is people Do Not normally go into the fetal position by choice or thought,<strong> it is without thought and from instinct or muscle memory.</strong></p>
+
+<p align="justify"><strong>
+Fear itself is NOT dangerous but reactions to fear can be dangerous.</strong>  On the other hand, inability to react from fear is even more dangerous. You have to unlearn what your previous trauma, perceived trauma, or anticipation of trauma has created.  Once you can learn to control that fear then you can think and respond more naturally. We have to override our “Flight or Fight” fear response. Fear protects us, yet many fears are learned, so each person has different fears depending on past events or past learning or beliefs. If you believe in hell you may fear it, if you do not believe in hell then there is no reason to fear it.  </p>
+
+<p align="justify">
+Why is it that humans are more fearful at night than in the day? Loss of the ability to see as well at night makes us more cautious. We cannot see things that may harm us and we are not as confident about how we move. <strong>Most creatures do not feel as safe when their vision is decreased. </strong>Nocturnal animals are more secure at night than during the day. Things that affect a horse's vision create fear. All things related to far that horses feel are at a much greater level because of their small survival oriented brains. Fear and ability to run (their speed) is what a horse depends on to live. Yet most humans cannot grasp why it is normal for a horse to feel and experience fear. </p>
+
+<p align="justify">
+Rats come out at night, many think rats caused the pelage but the facts say it was the fleas on the rats that carried the plague. Therefore, when the fleas bit humans that is what passed the plague on and <strong>killed over a 1/3 of the people on the planet.</strong> Could this be why many people who have never seen a rat are very much aware and fearful of rats? An interesting Rat fact to increase your fear of them; A Rat has 7000 lbs of strength in their jaw, more than an alligator or crocodile. Hell, I am looking around for rats as I write this. </p>
+
+
+<p align="justify">
+They say that <strong>bravery is not the absence of fear, but the ability to be scared and still do what needs to be done.</strong> If self-survival were the highest priority, why would someone ignore that to do something that might cost him or her their life? What motivates this action? It could be that the fear of authority is greater than the fear in front of you or greater fear of consequences or a selfless belief to save another, either a child or a loved one. In police work, we have a saying, if you run into a burning building and save someone, you are a hero. If you run into a burning building and are killed, you are a fool for running into a burning building.  In the military there countless stories of people jumping on grenades to save others, however there are not many stories of the people that were pushed onto a grenade, died and had no choice. Fear can be justified or caused by beliefs. Your beliefs can ease fear or produce it.</p>
+
+
+<p align="justify">
+If I put you on a horse and tell you that the horse bucked off and stomped the last three riders, you will judge that horse on what you think is true. Even if what I told you is false, in your mind, perception is reality, so your fear may be unjustified, but to you it is real. I have told people that my horse Buddy will buck them off and most everyone I tell that, changes what they do and how they ride. I can see the fear all over them, the way they move, the way they are extra careful, the way they sit, everything about them screams fear, yet Buddy is asking, “Why are you acting so weird?” Anyone can do this and everyone will see it. You can see fear, you may not be able to explain it, but you can see it and you will know it is there. Yet somehow, people think a horse cannot see it or feel it. They try to hide it or conceal it or think they are being slick and cool and the horse is too stupid to recognize it.  They are wrong.  A horse knows if you know. A horse knows if you are confident or scared. A horse is a reflection of you. </p>
+
+
+<p align="justify"><strong>
+What happens when someone has real or perceived fear?</strong> Fear responses and fear reaction creates panic and strength that normally may not exist. Fear also can override the normal or natural response. Knowing that fear can override your thought process is key when working with horses. People cannot do what needs to be done when scared. People cannot respond appropriately when fear is preventing that response.  A person cannot think clearly, when fear blocks or prevents normal thought. This is why habits and routines work for both human and horse. Muscle memory, motor memory, is memory that is so engrained that <strong>the body acts without thought;</strong> it is an automatic response requiring no thought. Like riding a bike, or turning off a faucet at you use it, it is automatically and done without thought. With muscle memory, you do not think or weigh possible decisions, you act.  This learned reaction is key to overcoming, overriding and preventing the fear response. For muscle memory to work the act must be completed at least 5000 times or 10,000 hours.  Another thing that must take place is the act you are trying to learn must be done the same way and consistently. If you were to try to learn to play the piano and one of your hands are placed one place one day, then the next day your hands were in a different place, you would not learn muscle memory. Your routine would not be consistent.</p>
+
+
+<p align="justify">
+Let us talk about muscle memory for your riding skills and then for the horse.  If you ride different each day, you will not develop muscle memory. So if you are one of those types that are always looking for a new piece of gear, changing to different bits, changing saddles, riding bareback, riding with boots one day and tennis shoes the next, every time you change how you ride or deal with your horse, you stop muscle memory from taking place. When I say you stop it, you stop it for you and the horse. The more you flex a horse the more the horse learns to flex, so in a crisis flexing is normal, it is memory, it is habit. So creating habits and muscle memory in you and your horse increases the chance of you both doing better when fear takes over. If you and your horse are in automatic response mode to fear, like you flex the horse and the horse flexes, since it has been done thousands of times, then in a crisis, both you and horse will do what you both have always done.</p>
+
+
+<p align="justify">
+An example of this is the one-rein stop. By training your body and mind to instinctively grab one rein, you are also training your horse to instinctively flex when you use one rein. This will help you both do better in any crisis and fear situation. However, when you do not keep a routine or habit, neither you nor your horse has anything to fall back on when either of your fears kicks in. So the chance of both of you going into a panic or flight response increases significantly.</p>
+
+
+<p align="justify">
+Earlier I talk about real fear and perceived fear, <strong>let me touch on delusional fear.</strong> This is fear <u>based on NO rational bias.</u> Therefore, when you fear riding or handling a horse since they are big and move fast, that is irrational fear. You know horse are big and move fast going in, you either own the horse or lease it or choose to ride it.  No adult is forced and taken against their will to ride a horse. Another example is if you think your horse is scared of water yet in the winter, when it rains, the horse does just fine, then that fear is without bias and is in the delusional fear arena.</p>
+
+
+<p align="justify">
+There is lots of delusional fear with horses. Some of these are; my horse is scared of the birds, the wind, cars, rain, water, roads, other horses, dogs, people, strangers, white things, things that move, things that do not move and the list goes on.  Most fears that are connected to horses are really rider or owners fears being projected onto the horse. By blaming the horse’s fear, you cover up and conceal your own fear.  This is not good for you or the horse. If you cannot face your fears, real, perceived or delusional, then you cannot grow past them. <strong>Hiding this of denying this unreasonable fear, sets both you and the horse up to fail. </strong> </p>
+
+
+<p align="justify">
+Fear and stress are two really bad things to have or hide when working with horses. Since a horse knows what is going to happen before it happens, the same people thinking they are hiding their fear, hiding their insecurities and blaming the horse, are the same people that get themselves hurt, their horse hurt or other people hurt. In today’s horse world these types of riders are in the majority.  I have an article on <a href="horse_fear.html" target="_blank"><u><strong> Discussing Horse and Rider Fear,</strong></u></a>  where I discuss how a horse’s heart rate will rise when the rider’s heart rate rises. Fear is transferable, any and all types of fear, rather perceived, real, imagined or delusional.</p>
+
+
+
+<p align="justify">
+The moral to this article is <strong>"Fear is normal."</strong> Fear cannot hurt you only your reactions or how you handle fear can hurt you. Understanding your own fear will help you understand your horse’s fear. That understanding will help deal with any fear more appropriately. Since we know that fear is normal, expected and is impossible to avoid; then we need to learn how to deal with fear more effectively.  One of the best ways to do that is to establish routines, habits and muscle memory. This will train your body to react instinctively in a crisis where fear would normally take over and prevent rational thought. And by teaching our horse to have muscle memory, we help them deal with their fear and enable them to react instinctively through muscle memory, when they get scared or fear driven.</p>
+
+
+<p align="justify">
+A horse’s worst fear is being controlled or led by another who is more fearful and not confident. Lastly, <strong><u>if you cannot overcome and control your fear, do not expect your horse to overcome or control their fears.</u></strong> A horse reflects your fears or your confidence. </p>
+
+
+<p align="justify">
+A horse is a reflection of you. When you see scared or spooky horses, you are seeing the rider. Once you accept that you will begin to change what you do and then your horse will change what they do. </p>
+
+
+<p></p>
+<hr>
+<p></p>
+
+
+<p align="justify"> <strong> <a href="index.html" target="_blank"> <u>Back To Home Page</u></a> </strong> </p>
+
+
+
+  <div class="toplink" align="right">
+    <a href="primal human fear.html#">Move to top of page <img alt="" src="up.gif" width="13" height="12" border="0"></a>
+  </div>
+
+  <h1 class="style1"></h1>
+</div>
+`;
