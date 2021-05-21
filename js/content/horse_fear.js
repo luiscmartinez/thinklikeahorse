@@ -1,4 +1,4 @@
-const horse_fear = html`
+const horse_fear = /*html*/ `
   <div class="banner">
     <center>
       <h1 class="style2">

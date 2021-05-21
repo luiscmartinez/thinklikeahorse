@@ -1,4 +1,4 @@
-const horse_opposition_reflex = html` <div class="banner">
+const horse_opposition_reflex = /*html*/ ` <div class="banner">
     <center>
       <h1 class="style2">
         <cufon
