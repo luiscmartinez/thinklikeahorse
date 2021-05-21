@@ -1,4 +1,4 @@
-const index_5 = html`
+const index_5 = /*html*/ `
   <div class="banner">
     <center>
       <h1 class="style2">
