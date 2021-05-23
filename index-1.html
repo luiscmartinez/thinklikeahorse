@@ -57,9 +57,7 @@
 					</div>
 					<div class="col2">
 						<div class="r1">
-							<div class="row2">
-
-							</div>
+							<div class="row2"></div>
 						</div>
 					</div>
 				</div>
@@ -70,22 +68,10 @@
 	</div>
 	</div>
 	</div>
-	<script type="text/javascript" src="js/content/index-1.js">
-		//<![CDATA[
-		Cufon.now();
-	 //]]>
-	</script>
-	<script type="text/javascript" src="js/navigation.js">
-	</script>
+	<script type="text/javascript" src="js/content/index-1.js"></script>
+	<script type="text/javascript" src="js/navigation.js"></script>
 
 	<script type="text/javascript">
-		const mainNav = document.querySelector("#mainNav")
-		Object.keys(navKeys).forEach((k) => {
-			const title = navKeys[k]
-			const liStr = `<li> <a class="section" href="${k}">${title}</a></li>`
-			const li = document.createRange().createContextualFragment(liStr)
-			mainNav.append(li)
-		})
 		const subNav = document.getElementById("sub_nav");
 		const mainContentEli = document.querySelector(".col2 .r1 .row2")
 		const frag = document.createRange().createContextualFragment(content)
