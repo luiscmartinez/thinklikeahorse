@@ -203,11 +203,7 @@ const content = /*html*/ `
     <div>
       <div>
         <p><img border="3" height="413" src="images/bbb.bmp" width="562" /></p>
-        <br />
-        <center>
-          <img border="0" src="images/horsedivider.gif" />
-        </center>
-        <br />
+
         <p></p>
         <hr />
         <p></p>
