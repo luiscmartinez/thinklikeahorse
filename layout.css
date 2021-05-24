@@ -1,5 +1,4 @@
 .main {
-  margin: 0 auto;
   text-align: left;
 }
 
@@ -104,6 +103,10 @@ iframe {
   @media (max-width: 769px) {
     .sticky-sidebar {
       display: none;
+    }
+    .col2 {
+      display: flex;
+      justify-content: center;
     }
   }
 }
