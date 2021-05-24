@@ -51,10 +51,6 @@
   width: 270px;
 }
 
-#sub_nav li a {
-  font-size: 0.8em;
-}
-
 .r1 {
   width: 80%;
   display: flex;
@@ -70,13 +66,44 @@
   background-color: #feeec7;
 }
 
-#sub_nav li {
-  width: 12em;
-  line-height: 19px;
-}
-
 #extra h2 {
   color: rgb(41, 37, 37);
   padding-bottom: 0.5em;
   border-bottom: 2px solid black;
+}
+
+.top_nav {
+  border: 2px solid red;
+  height: 35px;
+}
+
+#sub_nav li a {
+  font-size: 0.8em;
+}
+#sub_nav li {
+  width: 12em;
+  line-height: 19px;
+}
+img {
+  width: 100%;
+  object-fit: contain;
+}
+embed,
+iframe {
+  width: 100%;
+}
+@media (max-width: 1024px) {
+  .col1 {
+    display: none;
+  }
+  .top_nav {
+    display: block;
+    position: sticky;
+    top: 0px;
+  }
+  @media (max-width: 769px) {
+    .sticky-sidebar {
+      display: none;
+    }
+  }
 }
