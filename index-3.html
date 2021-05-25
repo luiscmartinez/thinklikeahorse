@@ -99,8 +99,6 @@
 			const hash = e.hash
 			if (e.innerText === '*SEARCH THE SITE') return
 			if (hash.length === 2 || hash.length === 3) {
-				console.log('HASS', hash, hash.length, e.innerText)
-
 				const title = e.innerText
 				const anchor = `<li><a href="${hash}">${title}</a></li>`
 				listItems.push(anchor)
