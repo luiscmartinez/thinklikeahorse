@@ -180,11 +180,6 @@ const content = /*html*/ `
                 <a href="index-16.html#4"><u>CONFUCIUS QUOTES</u></a>
               </td>
               <td>
-                <a href="index-9.html#29"
-                  >Horse Idioms Meaning of Horse Sayings</a
-                >
-              </td>
-              <td>
                 <a href="index-16.html#5">This Old Horse Poem</a>
               </td>
             </tr>
