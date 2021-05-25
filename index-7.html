@@ -88,20 +88,20 @@
 		const frag = document.createRange().createContextualFragment(index_7)
 		mainContentEli.appendChild(frag)
 
-        // console.log('target dom modified', mainContentEli)
-        // console.log('MAIN CONTENT', mainContentEli)
-		// const listItems = []
-		// titles.forEach((e, index) => {
-		// 	if (e.innerHTML.length) {
-		// 		const title = e.innerHTML
-		// 		const anchor = `<li><a href="#${index}">${title}</a></li>`
-		// 		listItems.push(anchor)
-		// 		e.innerHTML = `<a id="${index}">${title}</a>`;
-		// 		e.href = "#cool"
-		// 	}
-		// })
+		const subNavTitles = document.querySelectorAll("p > strong > u")
 
-		// subNav.innerHTML = listItems.join('')
+		const listItems = []
+		subNavTitles.forEach((e, index) => {
+			if (e.innerHTML.length) {
+				const title = e.innerHTML
+				const anchor = `<li><a href="#${index}">${title}</a></li>`
+				listItems.push(anchor)
+				e.innerHTML = `<a id="${index}">${title}</a>`;
+				e.href = "#cool"
+			}
+		})
+
+		subNav.innerHTML = listItems.join('')
 	</script>
 	</body>
 
