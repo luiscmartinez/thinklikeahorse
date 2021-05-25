@@ -88,21 +88,24 @@
 		const mainContentEli = document.querySelector(".col2 .r1 .row2")
 		const frag = document.createRange().createContextualFragment(content)
 		mainContentEli.appendChild(frag)
+		const titles = document.querySelectorAll('tbody > tr > td> a')
 
-        // console.log('target dom modified', mainContentEli)
-        // console.log('MAIN CONTENT', mainContentEli)
-		// const listItems = []
-		// titles.forEach((e, index) => {
-		// 	if (e.innerHTML.length) {
-		// 		const title = e.innerHTML
-		// 		const anchor = `<li><a href="#${index}">${title}</a></li>`
-		// 		listItems.push(anchor)
-		// 		e.innerHTML = `<a id="${index}">${title}</a>`;
-		// 		e.href = "#cool"
-		// 	}
-		// })
-
-		// subNav.innerHTML = listItems.join('')
+		const listItems = []
+		titles.forEach((e, index) => {
+			if (e.innerHTML.length) {
+				const title = e.innerText
+				if (!e.hash) {
+					const anchor = `<li><a href="${e.href}" target="_blank">${e.innerText}</a></li>`
+					listItems.push(anchor)
+					return
+				}
+				const anchor = `<li><a href="${e.hash}">${title}</a></li>`
+				listItems.push(anchor)
+			}
+		})
+		subNav.innerHTML = listItems.join('')
+		const tb = document.querySelector("tbody")
+		tb.hidden = true
 	</script>
 	</body>
 
