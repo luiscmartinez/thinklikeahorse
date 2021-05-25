@@ -25,7 +25,9 @@
 	</script>
 	<script src="js/Trajan_Pro_400.font.js" type="text/javascript">
 	</script>
+</head>
 
+<body>
 	<div class="main" id="content">
 		<div class="bg_top">
 			<div class="bg_bottom">
@@ -61,6 +63,16 @@
 
 							</div>
 						</div>
+						<div class="sticky-sidebar">
+							<div>
+								<div class="row1_top row1_top_extra" id="extra">
+									<h2 class="extra">Page Content</h2>
+									<ul id="sub_nav">
+									</ul>
+								</div>
+							</div>
+							<div id="footer"></div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -82,21 +94,20 @@
 		const frag = document.createRange().createContextualFragment(index_6)
 		mainContentEli.appendChild(frag)
 
-        // console.log('target dom modified', mainContentEli)
-        // console.log('MAIN CONTENT', mainContentEli)
-		// const listItems = []
-		// titles.forEach((e, index) => {
-		// 	if (e.innerHTML.length) {
-		// 		const title = e.innerHTML
-		// 		const anchor = `<li><a href="#${index}">${title}</a></li>`
-		// 		listItems.push(anchor)
-		// 		e.innerHTML = `<a id="${index}">${title}</a>`;
-		// 		e.href = "#cool"
-		// 	}
-		// })
+		const listItems = []
+		const titles = document.querySelectorAll('p > strong > u')
 
-		// subNav.innerHTML = listItems.join('')
+		titles.forEach((e, index) => {
+			if (e.innerHTML.length) {
+				const title = e.innerText
+				const anchor = `<li><a href="#${index}">${title}</a></li>`
+				listItems.push(anchor)
+				e.innerHTML = `<a id="${index}">${title}</a>`;
+			}
+		})
+		subNav.innerHTML = listItems.join('')
 	</script>
-	</body>
+</body>
+
 
 </html>
