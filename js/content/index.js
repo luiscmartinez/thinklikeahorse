@@ -162,11 +162,13 @@ const content = /*html*/ `
       </center>
     </h2>
 
-    <div class="blocks">
-      <div class="block block1_img">
+    <div>
+      <div>
         <a href="index-21.html" target="_blank"
-          ><img alt="" src="images/rickgorebuddy.jpg"
-        /></a>
+          >
+          <img alt="rick & buddy" src="images/rickgorebuddy.jpg"
+        />
+        </a>
         <a href="index.html#2" target="_blank"
           ><u></u>
           <center>
